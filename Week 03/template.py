@@ -24,8 +24,8 @@ def status_of(percent):
     else:
         return "OK"
 
-def check(value,limit):
-    """check(value, limit) that returns the difference and the percentage as two values"""
+def check_record(value,limit):
+    """check_record(value, limit) that returns the difference and the percentage as two values"""
     difference= limit-value
     percent= (value/limit)*100
     return difference,percent 
